@@ -102,7 +102,7 @@ class App extends Component {
       this.setState({ result: result[0]})
     }
     else {
-      this.setState({result: 'Undetermined' })
+      this.setState({result: 'INGET?? försök igen!' })
     }
   }
 
