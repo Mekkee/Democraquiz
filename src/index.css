@@ -7,6 +7,8 @@ body {
   padding: 0;
   background: #eee;
   font-family: sans-serif;
+  background: url('https://i.ibb.co/P19BC4t/rob-curran-s-UXXO3x-PBYo-unsplash.jpg');
+  background-size: cover;
 }
 
 .container {
@@ -14,7 +16,7 @@ body {
   max-width: 800px;
   margin: 0 auto;
   background: #fff;
-  border-radius: 3px;
+  border-radius: 10px;
 }
 
 @media (min-width: 769px) {
@@ -54,6 +56,7 @@ body {
 
 .answerOption:hover {
   background-color: #eefbfe;
+  border-radius: 10px;
 }
 
 .radioCustomButton {
