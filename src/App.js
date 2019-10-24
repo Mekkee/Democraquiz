@@ -3,12 +3,7 @@ import update from 'react-addons-update';
 import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
-import './App.css';
 
-/* 
-  npm install react-addons-update --save
-  npm install react-addons-css-transition-group
-*/
 
 class App extends Component {
   
@@ -22,9 +17,9 @@ class App extends Component {
       answerOption: [],
       answer: '',
       answersCount: {
-        Demokrat: 0,
-        Diktator: 0,
-        Oligark: 0
+        Demokrati: 0,
+        Diktatur: 0,
+        Oligarki: 0
       },
       result: ''
     };
