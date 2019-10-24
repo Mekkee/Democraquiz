@@ -1,17 +1,17 @@
-let quizQuestions = [
+const quizQuestions = [
   {
     question: "Vilken ledarstil gillar du mest?",
     answers: [
       {
-        type: "Demokrat",
+        type: "Demokrati",
         content: "Att låta hela gruppen bestämma"
       },
       {
-        type: "Oligark",
+        type: "Oligarki",
         content: "Att låta ett fåtal personer bestämma"
       },
       {
-        type: "Diktator",
+        type: "Diktatur",
         content: "Att jag själv eller någon annan bestämmer allt"
       }
     ]
@@ -20,15 +20,15 @@ let quizQuestions = [
     question: "Är ordet demokrati ett ord som du ogillar?",
     answers: [
       {
-        type: "Demokrat",
+        type: "Demokrati",
         content: "Verkligen inte"
       },
       {
-        type: "Oligark",
+        type: "Oligarki",
         content: "Lite halvt"
       },
       {
-        type: "Diktator",
+        type: "Diktatur",
         content: "Verkligen"
       }
     ]
@@ -37,15 +37,15 @@ let quizQuestions = [
     question: "Tycker du att alla partier ska få komma till tals i riksdagen?",
     answers: [
       {
-        type: "Demokrat",
+        type: "Demokrati",
         content: "Absolut"
       },
       {
-        type: "Oligark",
+        type: "Oligarki",
         content: "Inte riktigt. Bara ett fåtal."
       },
       {
-        type: "Diktator",
+        type: "Diktatur",
         content: "Nej. Bara ett parti ska få komma till tals."
       }
     ]
@@ -54,15 +54,15 @@ let quizQuestions = [
     question: "Skulle du vilja att Sverige var ett enmansvälde?",
     answers: [
       {
-        type: "Demokrat",
+        type: "Demokrati",
         content: "Absolute inte"
       },
       {
-        type: "Oligark",
+        type: "Oligarki",
         content: "Nej. Men en oligarki."
       },
       {
-        type: "Diktator",
+        type: "Diktatur",
         content: "Det låter bra. Det passar mig."
       }
     ]
@@ -71,15 +71,15 @@ let quizQuestions = [
     question: "Nämn en ledare vars ledarstil du tycker om",
     answers: [
       {
-        type: "Demokrat",
+        type: "Demokrati",
         content: "Isabella Lövin"
       },
       {
-        type: "Oligark",
+        type: "Oligarki",
         content: "Putin"
       },
       {
-        type: "Diktator",
+        type: "Diktatur",
         content: "Adolf Hitler"
       }
     ]
@@ -88,15 +88,15 @@ let quizQuestions = [
     question: "Ska folk få demonstrera i ditt land?",
     answers: [
       {
-        type: "Demokrat",
+        type: "Demokrati",
         content: "Ja verkligen! Det är en mänsklig rättighet"
       },
       {
-        type: "Oligark",
+        type: "Oligarki",
         content: "Nja, om dem inte blir ett hot mot oss så är det ok. Annars inte."
       },
       {
-        type: "Diktator",
+        type: "Diktatur",
         content: "Bara om det är vad jag tillåter."
       }
     ]
@@ -105,15 +105,15 @@ let quizQuestions = [
     question: "Ska folket ha mer makt i ditt land?",
     answers: [
       {
-        type: "Demokrat",
+        type: "Demokrati",
         content: "Verkligen! Utan tvekan."
       },
       {
-        type: "Oligark",
+        type: "Oligarki",
         content: "Så länge det inte störa våra lilla inflyteserika grupp."
       },
       {
-        type: "Diktator",
+        type: "Diktatur",
         content: "Om det följer mitt kommand. Annars kommer det inte på fråga."
       }
     ]
@@ -122,15 +122,15 @@ let quizQuestions = [
     question: "Vem av dessa ledare är mest demokratisk enligt dig?",
     answers: [
       {
-        type: "Demokrat",
+        type: "Demokrati",
         content: "Barrack Obama"
       },
       {
-        type: "Oligark",
+        type: "Oligarki",
         content: "Putin"
       },
       {
-        type: "Diktator",
+        type: "Diktatur",
         content: "Kim Jong Un"
       }
     ]
