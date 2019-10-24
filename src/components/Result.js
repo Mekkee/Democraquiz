@@ -15,7 +15,7 @@ function Result(props)
     transitionAppearTimeout={500}
   >
     <div>
-      You prefer <strong>{props.quizResult}</strong>!
+      <p>Du föredrar en, <strong>{props.quizResult}</strong>!</p>
     </div>
   </ReactCSSTransitionGroup>
   );
